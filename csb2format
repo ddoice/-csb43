@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# SPDX-FileCopyrightText: 2024 <wmj.py@gmx.com>
+#
+# SPDX-License-Identifier: LGPL-3.0-or-later
+
+import sys
+from csb43.utils import cmd
+
+
+if __name__ == "__main__":
+    sys.exit(cmd.main())
